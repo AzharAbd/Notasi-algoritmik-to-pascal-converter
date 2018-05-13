@@ -1,0 +1,19 @@
+program coba
+
+constant pi = 3.14
+constant kuota = 11
+
+type abc : array [1..100] of character
+type bla :
+      <a : integer,
+       b : string>
+
+{KAMUS}
+    a,b,c : integer
+    d,e,f : string
+    abc : array [1..100] of string
+
+{ALGORITMA}
+    INPUT(a,b)
+    OUTPUT(a)
+    OUTPUT("abc")
