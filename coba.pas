@@ -1,10 +1,8 @@
 program coba;
-kosong
 
 const
      pi = 3.14;
      jurusan = 'informatika';
-kosong
 
 type
      abc = array [1..100] of integer;
@@ -13,18 +11,14 @@ type
             bc : string;
             cd : boolean;
        end;
-kosong
 
 var
     data : abc;
     i, count, n : integer;
     x,y : char;
-kosong
 
-kosong
 
 procedure swap(var a : integer; var b : integer);
-kosong
 
 var
     temp : integer;
@@ -35,19 +29,15 @@ begin
     begin
         readln(data[i]);
         count := count + 1;
-2
-TRUE
+        for i := 1 to 10 do
+        begin
+            count := count +1;
+        end;
     end;
     b := temp;
-kosong
-1
-TRUE
-tolol
 end;
-kosong
 
 procedure bubblesort(var data : abc;  jumlah : integer);
-kosong
 
 var
     i, j : integer;
@@ -59,24 +49,13 @@ begin
             if (data[i] > data[j]) then
             begin
                 swap(data[i],data[j]);
-4
-TRUE
             end;
-3
-TRUE
         end;
-2
-TRUE
     end;
-1
-TRUE
 end;
-kosong
 
-kosong
 
 function max2( a : integer;  b : integer) : integer;
-kosong
 
 begin
     if (a>b) then
@@ -85,19 +64,10 @@ begin
     if (b > a) then
     begin
        max2 :=  b;
-3
-TRUE
   end;
-kosong
-2
-TRUE
-tolol
 end;
-kosong
 
-kosong
 
-kosong
 
 begin
     count := 0;
@@ -106,12 +76,7 @@ begin
     begin
         readln(data[i]);
         count := count + 1;
-2
-FALSE
     end;
     bubblesort(data, n);
     writeln(jurusan + 'Jurusan ku');
-1
-FALSE
-    end;
 end.
