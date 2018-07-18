@@ -1,7 +1,7 @@
 Nama : Azhar Abdurrasyid
 Nim : 16517012
 
-Mentranslate notasi algoritmik menjadi pascal
+Mentranslate notasi algoritmik menjadi pascal. Dibuat karena pengalaman saya saat belajar daspro menggunakan notasi algoritmik dan tidak bisa dicompile sama sekali, tidak tahu program yang dibuat sudah benar atau salah.
 Sebagaimana translator pada umumnya, jika bahasa yang ingin diterjemahkan sudah salah maka hasilnya akan salah juga
 
 Aturan file :
