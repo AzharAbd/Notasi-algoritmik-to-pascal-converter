@@ -1,19 +1,63 @@
 program coba
 
 constant pi = 3.14
-constant kuota = 11
+constant jurusan = 'informatika'
 
-type abc : array [1..100] of character
+type abc : array [1..100] of integer
 type bla :
-      <a : integer,
-       b : string>
+      <ab : integer,
+       bc : string,
+       cd : boolean>
 
 {KAMUS}
-    a,b,c : integer
-    d,e,f : string
-    abc : array [1..100] of string
+    data : abc
+    i, count, n : integer
+    x,y : character
+
+
+
+procedure swap(INPUT/OUTPUT a : integer, INPUT/OUTPUT b : integer)
+
+{KAMUS}
+    temp : integer
 
 {ALGORITMA}
-    INPUT(a,b)
-    OUTPUT(a)
-    OUTPUT("abc")
+    temp <- a
+    a <- b
+    while (count <= n) do
+        INPUT(data[i])
+        count <- count + 1
+    b <- temp
+
+
+procedure bubblesort(INPUT/OUTPUT data : abc, INPUT jumlah : integer)
+
+{KAMUS}
+    i, j : integer
+
+{ALGORITMA}
+    i traversal [1..jumlah]
+        j traversal [1..jumlah]
+            if (data[i] > data[j]) then
+                swap(data[i],data[j])
+
+
+function max2(INPUT a : integer, INPUT b : integer) -> integer
+
+{ALGORITMA}
+    if (a>b) then
+      -> a
+    if (b > a) then
+      -> b
+
+
+
+
+{ALGORITMA}
+    count <- 0
+    INPUT(n)
+    while (count <= n) do
+        INPUT(data[i])
+        count <- count + 1
+    bubblesort(data, n)
+    OUTPUT(jurusan + 'Jurusan ku')
