@@ -14,7 +14,10 @@ Aturan Notasi Algoritmik :
 2. Program ini sangat sensitif dengan identasi
    ( PERHATIKAN IDENTASI )
 3. Tidak boleh ada baris kosong pada bagian algoritma
+4. Saat membuat fungsi/prosedur tidak boleh seperti berikut : prosedur (INPUT a, b : integer)
+                                                 seharusnya : prosedur (INPUT a : integer, INPUT b : integer)
 
 Telah disediakan contoh file notasi algoritmik dan hasil terjemahannya yang cukup mempresentasikan fitur
 
-*Hubungi saya jika mengalami masalah major
+*Jika terjadi kesalahan minor, kemungkinan besar disebabkan karena User kurang mengikuti aturan notasi algoritmik.
+*User diharapkan untuk menyelesaikan masalah minor sendiri.
